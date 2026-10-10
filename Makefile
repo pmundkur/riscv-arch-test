@@ -16,7 +16,8 @@ COVERAGE_CONFIG_FILES ?= config/sail/sail-rv64-max/test_config.yaml config/sail/
 # Default exclusion reasons:
 #  - Sm: Insufficient WARL configuration options.
 EXTENSIONS  ?=
-EXCLUDE_EXTENSIONS ?= SdtrigSm,SdtrigS,SdtrigU
+#EXCLUDE_EXTENSIONS ?= SdtrigSm,SdtrigS,SdtrigU
+EXCLUDE_EXTENSIONS ?= 
 CERTIFICATE ?=
 ENABLE_EXPERIMENTAL_EXTENSIONS ?=
 
